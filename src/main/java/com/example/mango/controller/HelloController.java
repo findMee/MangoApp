@@ -12,7 +12,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String homeMethod() {
-        logger.info("This is from Mango controller");
+        logger.info("This is from Mango app controller");
         return "This is Tasty Mango App";
     }
 }
