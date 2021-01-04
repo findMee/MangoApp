@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  mango1:
+    image: mango:latest
+    ports:
+      - 8011:8080
+  mango2:
+    image: mango:latest
+    ports:
+      - 8012:8080
